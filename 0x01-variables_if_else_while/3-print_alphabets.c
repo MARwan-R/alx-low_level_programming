@@ -16,10 +16,10 @@ int main(void)
 		alpha++;
 	}
 	while (Alpha <= 'Z')
-        {
-                putchar(Alpha);
-                Alpha++;
-        }
+	{
+	putchar(Alpha);
+	Alpha++;
+	}
 	putchar('\n');
 	return (0);
 }
