@@ -7,17 +7,21 @@
  */
 int main(void)
 {
-	for (int num = 0; num < 10; num++)
+	int num = 0;
+
+	while (num < 10)
 	{
 		if (num < 9)
 		{
 			putchar('0' + num);
 			putchar(',');
 			putchar(' ');
+			num++;
 		} else
 		{
 			putchar('0' + num);
 			putchar('$');
+			num++;
 		}
 	}
 	putchar('\n');
