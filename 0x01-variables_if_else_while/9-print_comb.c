@@ -16,12 +16,9 @@ int main(void)
 		{
 			putchar(',');
 			putchar(' ');
-			num++;
-		} else
-		{
-			putchar('$');
-			num++;
 		}
+		num++;
 	}
+	putchar('\n');
 	return (0);
 }
