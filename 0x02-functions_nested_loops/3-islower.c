@@ -1,4 +1,9 @@
 #include "main.h"
+
+/**
+ * _islower - checks lower case
+ */
+
 int _islower(int c)
 {
 	if (c > 96 && c < 123)
