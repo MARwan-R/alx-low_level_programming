@@ -7,6 +7,23 @@
  *
  * Return: output
  */
+int _abs(int n)
+{
+        if (n > 0)
+        {
+                return (n);
+        }
+        else if (n == 0)
+        {
+                return (n);
+        }
+        else
+        {
+                n = n + (n * -2);
+                return (n);
+        }
+}
+
 int print_last_digit(int n)
 {
 	int np, nl;
