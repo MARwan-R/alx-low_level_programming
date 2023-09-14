@@ -27,7 +27,7 @@ int _abs(int n)
 int print_last_digit(int n)
 {
 	int np, nl;
-	
+
 	nl = n % 10;
 	np = _abs(nl);
 
