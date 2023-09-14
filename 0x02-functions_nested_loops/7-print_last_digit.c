@@ -3,6 +3,8 @@
 /**
  * print_last_digit - prints last digit
  *
+ * _abs - absolute value
+ *
  * @n: input
  *
  * Return: output
