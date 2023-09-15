@@ -13,7 +13,7 @@ void print_most_numbers(void)
 		if (num == 2 || num == 4)
 			num++;
 
-		_putchar(num);
+		_putchar('0' + num);
 		num++;
 	}
 	_putchar('\n');
